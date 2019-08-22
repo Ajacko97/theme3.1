@@ -1,0 +1,90 @@
+/*
+Theme Name: Foliopress Child
+Theme URL: http://hostinger-tutorials.com
+Description: Foliopress Child Theme
+Author: John Doe
+Author URL: http://hostinger-tutorials.com
+Template: foliopress
+Version: 1.0.0
+Text Domain: foliopress-child
+*/
+
+/* Change the color for the links */
+a {
+	color: #65B5FF;
+}
+
+/* Change the focus and active action for the links */
+a, a:focus, a:active {
+	color: #65B5FF;
+}
+
+/* Change hover color for sitelinks (projects subpage). */
+a:hover {
+	color: #000000;
+}
+/* Change site title color */
+.site-title a {
+	color: #000000;
+}
+
+/* Change site title hover color */
+.site-title a:hover {
+	color: #65B5FF;
+	text-decoration: none;
+}
+
+.site-description, .navbar-toggler {
+    color: #3f3f3f;
+}
+
+/* Change the color of the oblong bar to blue on each side. */
+.entry-title:after, .page-title:after, .widget-title:after, .post-grid .entry-title:after {
+	background-color: #65B5FF;
+}
+
+/* Changing the color for the active subpage in the navigation and the colors for the hover of each button */
+.main-navigation a:hover, .main-navigation ul li.current-menu-item a, .main-navigation ul li.current_page_ancestor a, .main-navigation ul li.current-menu-ancestor a, .main-navigation ul li.current_page_item a, .main-navigation ul li:hover > a {
+	color: #65B5FF;
+}
+
+/* Hover color for copyright text */
+.site-info .copyright a:hover {
+	color: #000000;
+}
+
+/* Search button change the hover color */
+.navbar span.search-toggle:hover {
+	color: #65B5FF;
+}
+
+/* Centering the main name of the subpage and the text on this subpage. */
+.entry-header, .page-header {
+	text-align: center;
+}
+
+/* Change the length of the blue bar under the page names to 100% width. */
+.entry-title:after, .page-title:after, .widget-title:after, .post-grid .entry-title:after {
+	width: 100%;
+}
+
+/* Centering the text and removing dots in the subpage - projects. */
+.entry-content ul {
+	text-align: center;
+	list-style: none;
+}
+
+/* Change background color for search button after expanding it. */
+.input-group-prepend .btn-info {
+	background-color: #000000;
+}
+
+/* Change background hover color for search button after expanding it. */
+.input-group-prepend .btn-info:hover {
+	background-color: #65B5FF;
+}
+
+/* The inscription "Hi, I am Jacek" has been centered. */
+.entry-title {
+	text-align: center;
+}
